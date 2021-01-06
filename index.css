@@ -1,0 +1,208 @@
+body
+{
+    padding:0px;
+    margin:0px;
+    min-width: 1300px;
+    min-height: 700px;
+}
+
+#searchbar
+{
+    width:100%;
+    height:15%;
+    background-color:#d1d1d1;
+    position: relative;
+}
+
+
+#ecommerceimg
+{
+    position: relative;
+    width:20%;
+    height:80%;
+    margin:10px;
+}
+
+#searchimg
+{
+    position: relative;
+    width:3%;
+    height:40%;
+    left: 4.7%;
+    top:-45%;
+    border-radius: 10px;
+}
+
+#cartimg
+{
+    position: relative;
+    width:10%;
+    height:80%;
+    margin:10px;
+    float: right;
+}
+
+#search
+{
+    width:30%;
+    height:40%;
+    position: relative;
+    left:5%;
+    top:-60%;
+    border-radius: 10px;
+}
+
+#search:hover
+{
+    background-color: silver;
+}
+
+#search:focus
+{
+    background-color: silver;
+}
+
+/* #myUL
+{
+    position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+} */
+
+
+#myUL {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    left:360px ;
+    top:60px;
+    width:30%;
+    z-index: 2;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+#mainbody
+{
+    background-color: cadetblue;
+}
+
+
+#main
+{
+    position: relative;
+    width:100%;
+    height:50%;
+    margin:0px;
+    padding:0px;
+}
+
+#main img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+#prev
+{
+    position: absolute;
+    top:100px;
+    left:10px;
+    
+}
+
+#next
+{
+    position: absolute;
+    top:100px;
+    right:10px;
+}
+
+#mobiles
+{
+    width:100%;
+    height:auto;
+}
+
+#mobiles img
+{
+    width:25%;
+    height:30%;
+    min-width: 20%;
+    min-height: 30%;
+    margin:50px;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+#mobiles img:hover
+{
+    transform: scale(1.25);
+}
+
+
+#style
+{
+    width:100%;
+    height: auto;
+}
+
+#style img
+{
+    width:500px;
+    height:250px;
+    margin:50px;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+#style img:hover
+{
+    transform: scale(1.25);
+}
+
+#myInput
+{
+    width:100%;
+}
+  
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #f6f6f6;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    left:1000px;
+    top:50px;
+    width:200px;
+    height:200px;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+

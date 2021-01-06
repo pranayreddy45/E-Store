@@ -1,0 +1,77 @@
+body
+{
+    text-align: center;
+}
+
+img
+{
+    
+    width:300px;
+    height: 125px;
+    margin-top:60px;
+}
+
+input
+{
+    margin-bottom:20px;
+}
+
+label
+{
+    font-weight: bold;
+    float: left;
+}
+
+input
+{
+    float: left;
+}
+
+p
+{
+    clear: both;
+}
+
+#login:hover
+{
+    font-weight: bolder;
+    font-size:120%;
+}
+
+span:hover
+{
+    color:red;
+}
+
+
+#signinform
+{
+    width:200px;
+    height:320px;
+    border: 1px antiquewhite solid;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top:60%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+input:hover
+{
+    background-color: wheat;
+}
+
+input:focus
+{
+    background-color: wheat;
+}
+
+#error
+{
+    clear: both;
+    float: left;
+    width:200;
+    color:red;
+}

@@ -1,0 +1,94 @@
+body
+{
+    padding:0px;
+    margin:0px;
+}
+
+#searchbar
+{
+    width:100%;
+    height:15%;
+    background-color: aquamarine;
+    position: relative;
+}
+
+
+#ecommerceimg
+{
+    position: relative;
+    width:20%;
+    height:80%;
+    margin:10px;
+}
+
+#searchimg
+{
+    position: relative;
+    width:3%;
+    height:40%;
+    left: 4.7%;
+    top:-45%;
+    border-radius: 10px;
+}
+
+#cartimg
+{
+    position: relative;
+    width:10%;
+    height:80%;
+    margin:10px;
+    float: right;
+}
+
+#search
+{
+    width:30%;
+    height:40%;
+    position: relative;
+    left:5%;
+    top:-60%;
+    border-radius: 10px;
+}
+
+#search:hover
+{
+    background-color: silver;
+}
+
+#search:focus
+{
+    background-color: silver;
+}
+
+#phones img
+{
+    position: relative;
+    float: left;
+    transition: transform .2s;
+    height:200px;
+}
+
+#phones div
+{
+    border-bottom: 1px solid red;
+    padding:5% 5% 5% 20%;
+    position: relative;
+}
+
+#phones img:hover
+{
+    transform: scale(1.5);
+}
+
+#phones p
+{
+    position: relative;
+    text-align: center;
+    
+}
+
+form
+{
+    position: relative;
+    text-align: center;
+}
