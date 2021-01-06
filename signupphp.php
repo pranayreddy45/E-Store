@@ -72,7 +72,7 @@ $info = json_encode($myObj);
     // </script>";
         $to=$email;
         $subject="Email Verification";
-        $headers = "From: saipranayreddy45@gmail.com \r\n";
+        $headers = "From: email@gmail.com \r\n";
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
         $vkey=md5(time().$to);
