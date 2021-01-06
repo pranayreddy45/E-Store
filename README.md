@@ -1,6 +1,6 @@
 # E-Store
 
-Frontend: HTML, CSS, JAVASCRIPT.
+<p> <b>Frontend: </b> HTML, CSS, JAVASCRIPT. </p>
 Client to server: Jquery(post method)
 Backend: PHP
 Database: Mysql
