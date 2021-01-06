@@ -1,5 +1,7 @@
 # E-Store
 
+<p> Database file named ecommerceDatabase in above files </p>
+
 <p> <b>Frontend: </b> HTML, CSS, JAVASCRIPT. </p>
 <p> <b> Client to server: </b> Jquery(post method) </p>
 <p> <b> Backend: </b> PHP </p>
