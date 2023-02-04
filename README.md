@@ -12,6 +12,16 @@ Apriori algorithm based on the data of previous transactions.
 
 </ul>
 
+<ul>
+<li>Front end is designed using HTML, CSS. Ajax used to perform behind the screen requests and JavaScript used to perform client side scripting </li>
+<li>Backend is based on PHP + MySql based RDB(Relational DataBase) model. </li>
+<li> The SQL queries are run using the CI SQL library functions </li>
+<li> Backend online host includes a centralized database resident on the server, the script which is built in PHP used to SQL query the database on user’s request for transaction of data </li>
+<li> The forms are made using the HTML, CSS for designing and Php, sql for back-end </li>
+<li> JavaScript, AJAX and JQuery used for client side scripting and PHP for the server side development </li>
+
+</ul>
+
 <p> <b>Frontend: </b> HTML, CSS, JAVASCRIPT. </p>
 <p> <b> Client to server: </b> Jquery(post method) </p>
 <p> <b> Backend: </b> PHP </p>
@@ -22,3 +32,5 @@ Apriori algorithm based on the data of previous transactions.
 
 
 <p> Database(mysql) file named ecommerceDatabase in above files for localhost. </p>
+
+
